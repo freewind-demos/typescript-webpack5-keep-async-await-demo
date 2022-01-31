@@ -1,3 +1,3 @@
-export function util1(): string {
+export async function util1(): Promise<string> {
   return 'util1';
 }

@@ -1,4 +1,8 @@
 import {utils} from './utils';
 
-const utilStr = utils.util1();
-console.log(utilStr);
+async function main() {
+  const utilStr = await utils.util1();
+  console.log(utilStr);
+}
+
+main();
